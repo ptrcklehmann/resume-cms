@@ -48,7 +48,7 @@ const Resume = () => (
       </p>
       <p className="pt-6">
         <span className='text-lime'>Stay bold & <br />
-      have a <TextScramble className='inline' texts={scrambleTexts} symbols={scrambleTexts} letterSpeed={2} nextLetterSpeed={20} pauseTime={2000} paused={false}/> {dayname}.</span>
+      have a <TextScramble className='inline' texts={scrambleTexts} symbols={scrambleTexts} letterSpeed={2} nextLetterSpeed={20} pauseTime={2000} paused={false} /> {dayname}.</span>
       </p>
       <div className='flex justify-end pt-8'>
         <Link to="/resume" className='text-4xl lg:text-6xl font-bold btn btn-secondary'>resume</Link>
