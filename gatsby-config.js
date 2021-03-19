@@ -19,7 +19,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Patrick Lehmann | Full Stack Developer`,
-        short_name: `CV`,
+        short_name: `portfolio`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#32F128`,
@@ -51,6 +51,24 @@ module.exports = {
       options: {
         printRejected: true,
         tailwind: true, // Enable tailwindcss support
+      }
+    },
+    {
+      resolve: `gatsby-plugin-routes`,
+      options: {
+        // this is the path to your routes configuration file
+        path: `${__dirname}/src/routes.js`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          '@assets': 'src/assets'
+        },
+        extensions: [
+          'js'
+        ]
       }
     }
   ],

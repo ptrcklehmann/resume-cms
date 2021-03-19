@@ -1,5 +1,5 @@
 import React from 'react';
-import BoltIcon from '../assets/bolt.svg';
+import BoltIcon from '@assets/bolt.svg';
 
 const ListItem = ({ text }) => (
   <div className="my-1">

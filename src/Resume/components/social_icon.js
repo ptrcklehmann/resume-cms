@@ -1,13 +1,13 @@
 import React from 'react';
-import YoutubeIcon from '../assets/youtube.svg';
-import TwitterIcon from '../assets/twitter.svg';
-import GithubIcon from '../assets/github.svg';
-import LinkedinIcon from '../assets/linkedin.svg';
-import FacebookIcon from '../assets/facebook.svg';
-import InstagramIcon from '../assets/instagram.svg';
-import BehanceIcon from '../assets/behance.svg';
-import DribbbleIcon from '../assets/dribbble.svg';
-import AngelIcon from '../assets/angellist.svg';
+import YoutubeIcon from '@assets/youtube.svg';
+import TwitterIcon from '@assets/twitter.svg';
+import GithubIcon from '@assets/github.svg';
+import LinkedinIcon from '@assets/linkedin.svg';
+import FacebookIcon from '@assets/facebook.svg';
+import InstagramIcon from '@assets/instagram.svg';
+import BehanceIcon from '@assets/behance.svg';
+import DribbbleIcon from '@assets/dribbble.svg';
+import AngelIcon from '@assets/angellist.svg';
 
 const SocialIcon = ({ type }) => {
   switch (type) {
