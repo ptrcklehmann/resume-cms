@@ -11,7 +11,7 @@
       "type": "percent",
       "subskills": [
         {
-          "name": "Mobile/Web Frontend Development",
+          "name": "Frontend Development",
           "percent": 95
         },
         {
@@ -32,6 +32,10 @@
         },
         {
           "name": "Agile Methodology",
+          "percent": 80
+        },
+        {
+          "name": "Test Driven Development",
           "percent": 80
         }
       ]
@@ -80,10 +84,13 @@
           "name": "Express"
         },
         {
-          "name": "Vue"
+          "name": "Gatsby"
         },
         {
-          "name": "Gatsby"
+          "name": "TailwindCSS"
+        },
+        {
+          "name": "Jasmine"
         }
       ]
     },
@@ -104,10 +111,10 @@
           "name": "Jira"
         },
         {
-          "name": "FIGMA"
+          "name": "Figma"
         },
         {
-          "name": "Postman"
+          "name": "POSTMAN"
         }
       ]
     },
@@ -162,7 +169,7 @@
     {
       "role": "Graphic Design Consultant",
       "company": "International Labour Organization",
-      "description": "- Built corporate brands by designing cohesive looks between elements such as logos and letterheads. / Employed design fundamentals when selecting typography, composition, layout and color in design work. / Demonstrated ability to take on various roles including graphics assistant and graphics specialist to provide range across projects.",
+      "description": "- Built corporate brands by designing cohesive looks between elements such as logos and letterheads. / - Employed design fundamentals when selecting typography, composition, layout and color in design work. / Demonstrated ability to take on various roles including graphics assistant and graphics specialist to provide range across projects.",
       "start": "10/2019",
       "end": "12/2020"
     },

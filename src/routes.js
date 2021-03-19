@@ -2,7 +2,7 @@ const path = require('path');
 module.exports = [
   {
     path: '/',
-    component: path.resolve(`src/pages/index.js`)
+    component: path.resolve(`src/pages/index.jsx`)
   },
   {
     path: '/resume',
