@@ -11,13 +11,13 @@ const Footer = ({ social }) => (
       <span className="inline-block mr-1">
         <HeartIcon
           className="h-3 w-3 fill-current"
-          style={{ color: '#de3618' }}
+          style={{ color: '#41F137' }}
         />
       </span>
       <span className="inline-block mr-1"></span>
       <a
-        className="text-primary-500 hover:text-primary-700 font-bold"
-        href="https://barancezayirli.com"
+        className="text-black hover:text-lime font-bold"
+        href="https://ptrcklehmann.com"
         target="_blank"
         rel="noopener noreferrer"
       >

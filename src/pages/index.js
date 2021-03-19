@@ -12,11 +12,21 @@ import {
 } from '../components';
 import resume from '../../data/profile';
 import '../main.css';
+// import Pdf from "react-to-pdf";
+const ref = React.createRef();
+const options = {
+  orientation: 'portrait',
+  unit: 'mm',
+  format: [210,297]
+};
 
 const Home = () => (
   <main className="antialiased text-black bg-white min-h-screen sm:p-5">
+    {/* <Pdf targetRef={ref} filename="code-example.pdf">
+        {({ toPdf }) => <button className='tag' onClick={toPdf}>SAVE PDF</button>}
+    </Pdf> */}
     <SEO title="Resume" />
-    <div className="container mx-auto shadow bg-neutral-100 py-5 px-10">
+    <div ref={ref} className="container mx-auto shadow bg-neutral-100 py-5 px-10">
       <Header
         contacts={resume.contact}
         name={resume.fullname}
