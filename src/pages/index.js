@@ -26,7 +26,7 @@ const Resume = () => (
       Have a great day</span>
       </p>
       <div className='flex justify-end pt-8'>
-        <Link src="/resume" className='text-4xl lg:text-6xl font-bold btn btn-secondary'>resume</Link>
+        <Link to="/resume" className='text-4xl lg:text-6xl font-bold btn btn-secondary'>resume</Link>
       </div>
     </div>
   </main>
