@@ -3,7 +3,7 @@ import BoltIcon from '../assets/bolt.svg';
 
 const ListItem = ({ text }) => (
   <div className="my-1">
-    <BoltIcon className="inline-block h-3 fill-current text-secondary-500" />
+    <BoltIcon className="inline-block h-3 fill-current text-lightLime" />
     <span className="inline-block font-medium ml-2">{text}</span>
   </div>
 );

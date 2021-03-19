@@ -14,9 +14,9 @@ import resume from '../../data/profile';
 import '../main.css';
 
 const Home = () => (
-  <main className="antialiased text-neutral-900 bg-neutral-100 min-h-screen sm:p-5">
+  <main className="antialiased text-black bg-white min-h-screen sm:p-5">
     <SEO title="Resume" />
-    <div className="container mx-auto shadow bg-white py-5 px-10">
+    <div className="container mx-auto shadow bg-neutral-100 py-5 px-10">
       <Header
         contacts={resume.contact}
         name={resume.fullname}

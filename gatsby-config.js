@@ -6,26 +6,23 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Baran Cezayirli | Technologist`,
-    author: `Baran Cezayirli`,
-    description: `With 10+ years of experience in various industries, I help tech
-              startups from idea phase to high volumes. I design and build
-              scalable solutions, implement internal processes that fit your
-              organization, build teams that produce results.`,
-    siteUrl: `https://barancezayirli.com/`,
+    title: `Patrick Lehmann | Full Stack Developer`,
+    author: `Patrick Lehmann`,
+    description: `Solution-driven Full Stack Developer adept at contributing to highly collaborative work environment, finding solutions and determining customer satisfaction. Proven experience developing consumer-focused websites using HTML, CSS, React.js and JavaScript.`,
+    siteUrl: `https://ptrcklehmann.com/`,
     social: {
-      twitter: `barancezayirli`,
+      twitter: ``,
     },
   },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Baran Cezayirli | Technologist`,
+        name: `Patrick Lehmann | Full Stack Developer`,
         short_name: `CV`,
         start_url: `/`,
         background_color: `#f7f0eb`,
-        theme_color: `#38B2AC`,
+        theme_color: `#32F128`,
         display: `standalone`,
         icon: 'src/assets/site-icon.png'
       },
