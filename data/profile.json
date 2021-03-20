@@ -2,7 +2,7 @@
   "contact": {
     "phone": "+49 15901345063",
     "email": "ptrcklehmann@gmail.com",
-    "website": "https://ptrcklehmann.com",
+    "website": "/",
     "location": "Berlin, Germany"
   },
   "skills": [
@@ -54,19 +54,23 @@
         },
         {
           "name": "CSS",
-          "percent": 75
-        },
-        {
-          "name": "Typescript",
-          "percent": 80
-        },
-        {
-          "name": "PHP",
           "percent": 85
         },
         {
-          "name": "Java",
+          "name": "Typescript",
           "percent": 75
+        },
+        {
+          "name": "PHP",
+          "percent": 70
+        },
+        {
+          "name": "Java",
+          "percent": 70
+        },
+        {
+          "name": "Python",
+          "percent": 70
         }
       ]
     },
@@ -114,7 +118,7 @@
           "name": "Figma"
         },
         {
-          "name": "POSTMAN"
+          "name": "Postman"
         }
       ]
     },

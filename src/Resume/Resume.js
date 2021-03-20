@@ -13,6 +13,7 @@ import {
 import resume from '../../data/profile';
 import '../main.css';
 
+
 const Resume = () => (
   <main className="antialiased text-black bg-white min-h-screen sm:p-5">
     <SEO title="Resume" />

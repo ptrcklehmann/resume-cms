@@ -3,6 +3,7 @@ import MailIcon from '@assets/mail.svg';
 import MobileIcon from '@assets/mobile.svg';
 import GlobeIcon from '@assets/globe.svg';
 import LocationIcon from '@assets/location.svg';
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 const Contact = ({ field, value }) => (
   <span className="flex my-2 text-primary-900 tracking-widest items-center">
@@ -25,15 +26,16 @@ const Contact = ({ field, value }) => (
     {field === 'website' && (
       <>
         <GlobeIcon className="contact-icon" />
-        <a
+        <AniLink fade duration={3}  bg="#6CF266" to={value}>
+        <span
           className="contact-link"
-          target="_blank"
           href={value}
           rel="noopener noreferrer"
           title="website"
         >
           Personal Site
-        </a>
+        </span>
+        </AniLink>
       </>
     )}
     {field === 'location' && (
