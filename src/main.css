@@ -17,7 +17,7 @@
 }
 
 .index-icon {
-    @apply fill-current w-9 h-9 text-lime;
+    @apply fill-current w-8 h-8 text-lime;
 }
 .index-icon:hover {
     @apply text-black;

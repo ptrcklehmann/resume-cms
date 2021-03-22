@@ -6,6 +6,8 @@ import {
   SEO
 } from '../Resume/components';
 import '../main.css';
+import resume from '../../data/profile';
+import SocialIcon from '../Resume/components/social_icon_main';
 
 const scrambleTexts: ScrambleTexts = [
   'magnificent',
@@ -54,8 +56,25 @@ const Resume = () => (
       <footer>
         <div className='flex justify-end pt-8'>
         <AniLink cover direction='top' bg="#6CF266" to="/resume" className='bg-white tracking-wide text-lime rounded border-b-2 border-lime hover:border-lime hover:bg-lime hover:text-black shadow-md py-2 px-2 inline-flex items-center text-1xl lg:text-4xl'>
-          <span className="mx-auto"><ResumeIcon className="index-icon" /></span>
+          <span className="mx-auto">
+            <ResumeIcon className="index-icon" />
+            </span>
         </AniLink>
+        {resume.social.map(item => (
+          <a
+            key={item.service}
+            className='bg-white ml-2 tracking-wide text-lime rounded border-b-2 border-lime hover:border-lime hover:bg-lime hover:text-black shadow-md py-2 px-2 inline-flex items-center text-1xl lg:text-4xl'
+            href={item.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            title={item.service}
+          >
+            <span className="mx-auto">
+            <SocialIcon type={item.service} />
+            </span>
+           
+          </a>
+        ))}
         </div>
       </footer>
     </div>
