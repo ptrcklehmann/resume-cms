@@ -16,6 +16,13 @@
     @apply fill-current w-4 h-4 mr-4 text-lime;
 }
 
+.index-icon {
+    @apply fill-current w-9 h-9 text-lime;
+}
+.index-icon:hover {
+    @apply text-black;
+}
+
 .contact-link {
     @apply text-sm;
 }

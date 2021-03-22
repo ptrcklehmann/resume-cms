@@ -1,5 +1,6 @@
 import React from 'react';
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+import ResumeIcon from '@assets/resume.svg';
 import TextScramble, { ScrambleTexts } from '@twistezo/react-text-scramble'
 import {
   SEO
@@ -52,8 +53,8 @@ const Resume = () => (
       </p>
       <footer>
         <div className='flex justify-end pt-8'>
-        <AniLink cover direction='top' bg="#6CF266" to="/resume" className='bg-white tracking-wide text-lime rounded border-b-2 border-lime hover:border-lime hover:bg-lime hover:text-black shadow-md py-2 px-6 inline-flex items-center text-1xl lg:text-4xl'>
-          <span class="mx-auto">Resume</span>
+        <AniLink cover direction='top' bg="#6CF266" to="/resume" className='bg-white tracking-wide text-lime rounded border-b-2 border-lime hover:border-lime hover:bg-lime hover:text-black shadow-md py-2 px-2 inline-flex items-center text-1xl lg:text-4xl'>
+          <span className="mx-auto"><ResumeIcon className="index-icon" /></span>
         </AniLink>
         </div>
       </footer>
