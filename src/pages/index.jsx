@@ -3,9 +3,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import ResumeIcon from '@assets/resume.svg';
 import TextScramble, { ScrambleTexts } from '@twistezo/react-text-scramble'
 // import ReactTooltip from "react-tooltip";
-import {
-  SEO
-} from '../Resume/components';
+import SEO from '../Resume/components/seo';
 import '../main.css';
 import resume from '../../data/profile';
 import SocialIcon from '../Resume/components/social_icon_main';

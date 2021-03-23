@@ -208,12 +208,12 @@
   ],
   "social": [
     {
-      "service": "linkedin",
-      "url": "https://www.linkedin.com/in/ptrcklehmann"
-    },
-    {
       "service": "github",
       "url": "https://github.com/ptrcklehmann"
+    },
+    {
+      "service": "linkedin",
+      "url": "https://www.linkedin.com/in/ptrcklehmann"
     },
     {
       "service": "instagram",
