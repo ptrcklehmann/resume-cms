@@ -80,5 +80,14 @@ module.exports = {
         allExtensions: true, // defaults to false
       },
     },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        custom: {
+          families: ['GeomanistRegular', 'GeomanistBold'],
+          urls: ['fonts/typography.css']
+        }
+      }
+    }
   ],
 };

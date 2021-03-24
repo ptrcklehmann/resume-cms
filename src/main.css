@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+
+
 .btn {
     @apply text-xs font-bold py-1 px-2 rounded;
 }
@@ -59,7 +60,6 @@
     @apply h-6 fill-current;
 }
 .index {
-    font-family: 'Lato', sans-serif;
-    font-weight: 900;
+    font-family: 'GeomanistBold', sans-serif;
 }
 @tailwind utilities;

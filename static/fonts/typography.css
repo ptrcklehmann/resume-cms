@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Geomanist Regular';
+    src: url('geomanist-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GeomanistBold';
+    src: url('geomanist-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
