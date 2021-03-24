@@ -35,7 +35,7 @@ const dayname = weekday[day.getDay()]
 const Resume = () => (
   <main className="antialiased text-black bg-white min-h-screen sm:p-5">
     <SEO title="ptrcklehmann" />
-    <div className="index min-w-screen whitespace-pre-line m-auto shadow bg-neutral-100 p-2 lg:p-12 px-5 lg:px-20 text-3xl lg:text-6xl">
+    <div className="index min-w-screen whitespace-normal m-auto shadow bg-neutral-100 p-2 lg:p-12 px-3 lg:px-46 text-4xl lg:text-6xl">
       <p className="pt-6">
         <span role='img' aria-label='beers'>🍻</span>Cheers, I am <span className='text-lime'>Patrick</span>,</p>
       <p className="pt-6">
@@ -48,7 +48,7 @@ const Resume = () => (
       <p className="pt-6">
         If you fancy a chat feel free to <a href="mailto:ptrcklehmann@gmail.com?Subject=Cheers" className='text-lime'>drop me a line</a>.
       </p>
-      <p className="pt-6">
+      <p className="pt-6 text-3xl">
         <span className='text-lime'>Stay bold & <br />
       have a <TextScramble className='inline' texts={scrambleTexts} symbols={scrambleTexts} letterSpeed={2} nextLetterSpeed={20} pauseTime={2000} paused={false} /> {dayname}.</span>
       </p>
