@@ -48,7 +48,7 @@ const Resume = () => (
       <p className="pt-6">
         If you fancy a chat feel free to <a href="mailto:ptrcklehmann@gmail.com?Subject=Cheers" className='text-lime'>drop me a line</a>.
       </p>
-      <p className="pt-6 text-3xl">
+      <p className="pt-6 text-3xl lg:text-6xl">
         <span className='text-lime'>Stay bold & <br />
       have a <TextScramble className='inline' texts={scrambleTexts} symbols={scrambleTexts} letterSpeed={2} nextLetterSpeed={20} pauseTime={2000} paused={false} /> {dayname}.</span>
       </p>
