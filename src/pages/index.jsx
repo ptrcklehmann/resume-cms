@@ -48,10 +48,10 @@ const Resume = () => (
       <p className="pt-6">
         If you fancy a chat feel free to <a href="mailto:ptrcklehmann@gmail.com?Subject=Cheers" className='text-lime'>drop me a line</a>.
       </p>
-      <p className="pt-6 text-3xl lg:text-6xl">
+      <div className="pt-6 text-3xl lg:text-6xl">
         <span className='text-lime'>Stay bold & <br />
       have a <TextScramble className='inline' texts={scrambleTexts} symbols={scrambleTexts} letterSpeed={2} nextLetterSpeed={20} pauseTime={2000} paused={false} /> {dayname}.</span>
-      </p>
+      </div>
       <footer>
         <div className='flex justify-end pt-8'>
         <AniLink cover direction='top' bg="#6CF266" to="/resume" className='bg-white tracking-wide text-lime rounded border-b-2 border-lime hover:border-lime hover:bg-lime hover:text-black shadow-md py-2 px-2 inline-flex items-center text-1xl lg:text-4xl'>
@@ -71,7 +71,6 @@ const Resume = () => (
             <span className="mx-auto">
             <SocialIcon type={item.service} />
             </span>
-           
           </a>
         ))}
         </div>
