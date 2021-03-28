@@ -68,6 +68,7 @@ const Resume = () => (
             rel="noopener noreferrer"
             title={item.service}
           >
+            
             <span className="mx-auto">
             <SocialIcon type={item.service} />
             </span>
