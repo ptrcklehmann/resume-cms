@@ -7,6 +7,7 @@ import SEO from '../Resume/components/seo';
 import '../main.css';
 import resume from '../../data/profile';
 import SocialIcon from '../Resume/components/social_icon_main';
+import { Tooltip } from "@afc-org/react-tailwind";
 
 const scrambleTexts: ScrambleTexts = [
   'magnificent',
@@ -32,7 +33,7 @@ weekday[6] = "Saturday";
 
 const dayname = weekday[day.getDay()]
 
-const Resume = () => (
+const Index = () => (
   <main className="antialiased text-black bg-white min-h-screen sm:p-5">
     <SEO title="ptrcklehmann" />
     <div className="index min-w-screen whitespace-normal m-auto shadow bg-neutral-100 p-2 lg:p-12 px-3 lg:px-46 text-4xl lg:text-6xl">
@@ -48,36 +49,39 @@ const Resume = () => (
       <p className="pt-6">
         If you fancy a chat feel free to <a href="mailto:ptrcklehmann@gmail.com?Subject=Cheers" className='text-lime'>drop me a line</a>.
       </p>
-      <p className="pt-6 text-3xl lg:text-6xl">
+      <div className="pt-6 text-3xl lg:text-6xl">
         <span className='text-lime'>Stay bold & <br />
       have a <TextScramble className='inline' texts={scrambleTexts} symbols={scrambleTexts} letterSpeed={2} nextLetterSpeed={20} pauseTime={2000} paused={false} /> {dayname}.</span>
-      </p>
+      </div>
       <footer>
         <div className='flex justify-end pt-8'>
-        <AniLink cover direction='top' bg="#6CF266" to="/resume" className='bg-white tracking-wide text-lime rounded border-b-2 border-lime hover:border-lime hover:bg-lime hover:text-black shadow-md py-2 px-2 inline-flex items-center text-1xl lg:text-4xl'>
-          <span className="mx-auto">
-            <ResumeIcon className="index-icon" />
-            </span>
-        </AniLink>
-        {resume.social.map(item => (
-          <a
-            key={item.service}
-            className='bg-white ml-2 tracking-wide text-lime rounded border-b-2 border-lime hover:border-lime hover:bg-lime hover:text-black shadow-md py-2 px-2 inline-flex items-center text-1xl lg:text-4xl'
-            href={item.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            title={item.service}
-          >
+          <AniLink cover id='resume' direction='top' bg="#6CF266" to="/resume" className='bg-white tracking-wide text-lime rounded border-b-2 border-lime hover:border-lime hover:bg-lime hover:text-black shadow-md py-2 px-2 inline-flex items-center text-1xl lg:text-4xl'>
             <span className="mx-auto">
-            <SocialIcon type={item.service} />
+              <ResumeIcon className="index-icon" />
             </span>
-           
-          </a>
-        ))}
+          </AniLink>
+          <Tooltip target="#resume">resume</Tooltip>
+          {resume.social.map(item => (
+              <a
+                key={item.service}
+                className='bg-white ml-2 tracking-wide text-lime rounded border-b-2 border-lime hover:border-lime hover:bg-lime hover:text-black shadow-md py-2 px-2 inline-flex items-center text-1xl lg:text-4xl'
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={item.service}
+                id={item.service}
+              >
+                <span className="mx-auto" >
+                  <SocialIcon type={item.service}/>
+                </span>
+              </a>
+          ))}
+          {resume.social.map(item => (
+            <Tooltip key={item.key} target={'#'+item.service}> {item.service} </Tooltip>
+          ))}
         </div>
       </footer>
     </div>
   </main>
 );
-
-export default Resume;
+export default Index
