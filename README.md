@@ -1,39 +1,6 @@
-# Gatsby resume CMS
+# ptrcklehmannn
 
-## Features
-
-- One-page resume/CV
-- PWA
-- Multiple Netlify CMS widgets
-- Netlify CMS as Headless CMS
-- Tailwind for styling with theming
-- Optimized build process
-- Basic SEO, site metadata
-- Prettier
-- Social media links
-
-## Quick Start
-
-### Create a Gatsby site
-
-Use the Gatsby CLI to create a new site, specifying the resume starter.
-
-```shell
-# create a new Gatsby site using the blog starter
-gatsby new my-resume https://github.com/barancezayirli/gatsby-starter-resume-cms
-```
-
-### Start developing
-
-Navigate into your new site’s directory and start it up.
-
-```shell
-cd my-resume/
-gatsby develop
-```
-
-## Updating Content
-
-The resume content is generated from `data/profile.json` file. You can manually edit this file or setup Netlify CMS for online editing.
-
-
+![build: passing](https://img.shields.io/badge/build-passing-success)
+![version :31.03.2021](https://img.shields.io/badge/version-31.03.2021-informational)
+[![mail: ptrcklehmann@gmail.com](https://img.shields.io/badge/mail-ptrcklehmann%20at%20gmail%20dot%20com-red)](mailto://ptrcklehmann@gmail.com)
+[![Linkedin: ptrcklehmann](https://img.shields.io/badge/-ptrcklehmann-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ptrcklehmann/)](https://www.linkedin.com/in/ptrcklehmann/)
