@@ -10,6 +10,7 @@ module.exports = {
     author: `Patrick Lehmann`,
     description: `Solution-driven Full Stack Developer adept at contributing to highly collaborative work environment, finding solutions and determining customer satisfaction. Proven experience developing consumer-focused websites using HTML, CSS, React.js and JavaScript.`,
     siteUrl: `https://ptrcklehmann.com/`,
+    image: "src/assets/ptrcklehmann-preview.jpg",
     social: {
       twitter: ``,
     },
