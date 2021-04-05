@@ -1,7 +1,5 @@
 @tailwind base;
 @tailwind components;
-
-
 .btn {
     @apply text-xs font-bold py-1 px-2 rounded;
 }
@@ -9,6 +7,7 @@
 .btn-secondary {
     @apply bg-lime text-neutral-800;
 }
+
 .btn-secondary:hover {
     @apply bg-lightLime
 }
@@ -20,6 +19,7 @@
 .index-icon {
     @apply fill-current w-8 h-8 text-lime;
 }
+
 .index-icon:hover {
     @apply text-black;
 }
@@ -59,7 +59,42 @@
 .footer-social-icon {
     @apply h-6 fill-current;
 }
+
 .index {
     font-family: 'GeomanistBold', sans-serif;
 }
+
+#top, #bottom, #left, #right {
+    background: #41F137;
+    position: fixed;
+}
+
+#left, #right {
+    top: 0;
+    bottom: 0;
+    width: 20px;
+}
+
+#left {
+    left: 0;
+}
+
+#right {
+    right: 0;
+}
+
+#top, #bottom {
+    left: 0;
+    right: 0;
+    height: 20px;
+}
+
+#top {
+    top: 0;
+}
+
+#bottom {
+    bottom: 0;
+}
+
 @tailwind utilities;
