@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
+
 .btn {
     @apply text-xs font-bold py-1 px-2 rounded;
 }
@@ -62,6 +63,12 @@
 
 .index {
     font-family: 'GeomanistBold', sans-serif;
+}
+
+@media (max:440px) {
+    #top, #bottom, #left, #right {
+        display: none;
+    }
 }
 
 #top, #bottom, #left, #right {
