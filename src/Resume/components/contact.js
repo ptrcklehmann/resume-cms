@@ -26,7 +26,7 @@ const Contact = ({ field, value }) => (
     {field === 'website' && (
       <>
         <GlobeIcon className="contact-icon" />
-        <AniLink fade duration={3}  bg="#6CF266" to={value}>
+        <AniLink cover direction='bottom' bg="#6CF266" to={value}>
         <span
           className="contact-link"
           href={value}
