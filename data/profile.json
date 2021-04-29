@@ -166,7 +166,7 @@
     {
       "role": "Full Stack Developer",
       "company": "Frelancer",
-      "description": "- Managed development milestones from initial steps through final delivery. \n- Maintained existing applications and designed and delivered new applications.",
+      "description": "- Managed development milestones from initial steps through final delivery. \n- Maintained existing applications and designed and delivered new applications.\n- Built, tested and deployed scalable, highly available and modular software products increasing usability and readability.\n- Implemented process management system using React language.\nMain Stack: HTML, CSS, Javascript, Node.js, React.js , ExpressJS, MongoDB, Gatsby.js, Git.",
       "start": "03/2019",
       "end": ""
     },
@@ -194,7 +194,7 @@
     {
       "role": "General Manager / Marketing Assistant",
       "company": "youme sushi restaurant",
-      "description": "Promoted a positive atmosphere and went above and beyond to guarantee each customer received exceptional food and service. \n- Developed, implemented and managed business plans to promote profitable food and beverage sales. \n- Improved brand awareness by monitoring all marketing campaigns and fostering membership acquisitions and business development.",
+      "description": "- Promoted a positive atmosphere and went above and beyond to guarantee each customer received exceptional food and service. \n- Developed, implemented and managed business plans to promote profitable food and beverage sales. \n- Improved brand awareness by monitoring all marketing campaigns and fostering membership acquisitions and business development.",
       "start": "10/2013",
       "end": "01/2015"
     },
@@ -220,7 +220,7 @@
       "url": "https://www.instagram.com/_patrico"
     }
   ],
-  "role": "Full Stack Developer",
+  "role": "Frontend Developer",
   "projects": [
     {
       "name": "lavva - game",
