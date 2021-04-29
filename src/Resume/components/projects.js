@@ -17,6 +17,14 @@ const Projects = ({ data }) => (
           >
             Visit Project
           </a>
+          <a
+            className="btn btn-secondary"
+            href={item.repositoy}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github Repositoy
+          </a>
         </div>
       </article>
     ))}

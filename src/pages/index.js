@@ -2,12 +2,19 @@ import React from 'react';
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import ResumeIcon from '@assets/resume.svg';
 import TextScramble, { ScrambleTexts } from '@twistezo/react-text-scramble'
-// import ReactTooltip from "react-tooltip";
 import SEO from '../Resume/components/seo';
 import '../main.css';
 import resume from '../../data/profile';
-import SocialIcon from '../Resume/components/social_icon_main';
+import SocialIcon from '../Resume/components/social_icon_main'
 
+const toggleBody = document.querySelector('.toggle-body')
+const toggleBtn = document.querySelector('.toggle-btn')
+
+toggleBtn.addEventListener('click', () => {
+  toggleBody.classList.toggle('toggle-body--on')
+  toggleBtn.classList.toggle('toggle-btn--on')
+  toggleBtn.classList.toggle('toggle-btn--scale')
+});
 const scrambleTexts: ScrambleTexts = [
   'magnificent',
   'terrific',
@@ -32,7 +39,7 @@ weekday[6] = "Saturday";
 
 const dayname = weekday[day.getDay()]
 
-const Resume = () => (
+const index = () => (
   <main className="antialiased text-black bg-neutral-100 min-h-screen p-12 lg:p-32">
     <div id="left"></div>
     <div id="right"></div>
@@ -40,9 +47,15 @@ const Resume = () => (
     <div id="bottom"></div>
     <SEO title="ptrcklehmann" />
     <div className="index min-w-screen whitespace-normal m-auto bg-neutral-100 p-2 lg:p-12 px-3 lg:px-46 text-4xl lg:text-6xl">
+      <div className="top-0 right-0">
+        <div className="toggle-body">
+          <div className="toggle-btn" ></div>
+          {/* role='button' onClick={setTheme} */}
+        </div>
+      </div>
       <p className="pt-6">
-        <span role='img' aria-label='beers'>🍻</span>Cheers, I am <span className='text-lime'>Patrick</span>,<br/>
-      
+        <span role='img' aria-label='beers'>🍻</span>Cheers, I am <span className='text-lime'>Patrick</span>,<br />
+
         A detail-oriented frontend developer <span className='text-lime'>from rural Brazil</span>, currently living in ~~Berlin~~ on the road. I've transitioned from graphic design to web development in the past 3 years, after helping <span className='text-lime'>organisations</span> like the <a href="https://www.ilo.org/" className='text-lime'>ILO</a> and <a href="https://www.aviatrixberlin.com/" className='text-lime'>Aviatrix</a> deliver <span className='text-lime'>kick-ass</span> campaigns, worked as a barista to level-up my <span className='text-lime'>German</span> skills, backpacked 3 months through Europe with my dog <span className='text-lime'>Ponyo</span> <span role='img' aria-label='dog'>🐕</span> and tent <span className='text-lime'>Priscila</span> <span role='img' aria-label='tent'>⛺️</span>, discovering the southern beaches of Portugal and cruising the cold waters of the Baltic Sea.
       </p>
       <p className="pt-6">
@@ -81,6 +94,7 @@ const Resume = () => (
       </footer>
     </div>
   </main>
-);
+)
 
-export default Resume;
+export default index;
+

@@ -223,10 +223,19 @@
   "role": "Full Stack Developer",
   "projects": [
     {
+      "name": "lavva - game",
+      "company": "ORA",
+      "description": "Built with Javascript, HTML canvas2Dcontext, CSS",
+      "link": "https://ptrcklehmann.github.io/lavva/",
+      "repository": "https://github.com/ptrcklehmann/lavva"
+      
+    },
+    {
       "name": "ORA ARTS prototype",
       "company": "ORA",
       "description": "Built with Reaact.js, Node.js, Express.js, MongoDB. 'ORA is the only platform connecting artists, curators, institutions, galleries and collectors around a cooperative system.'",
-      "link": "https://github.com/ORA-Arts/ora-prototype"
+      "link": "https://ora-art-prototype.herokuapp.com/",
+      "repository": "https://github.com/ORA-Arts/ora-prototype"
     }
   ],
   "fullname": "Patrick Lehmann"

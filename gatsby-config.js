@@ -1,16 +1,10 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
   siteMetadata: {
     title: `Patrick Lehmann | Full Stack Developer`,
     author: `Patrick Lehmann`,
     description: `Solution-driven Full Stack Developer adept at contributing to highly collaborative work environment, finding solutions and determining customer satisfaction. Proven experience developing consumer-focused websites using HTML, CSS, React.js and JavaScript.`,
     siteUrl: `https://ptrcklehmann.com/`,
-    image: "src/assets/ptrcklehmann-preview.jpg",
+    image: `src/assets/ptrcklehmann-preview.jpg`,
     social: {
       twitter: ``,
     },
@@ -25,11 +19,11 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#32F128`,
         display: `standalone`,
-        icon: 'src/assets/site-icon.png'
+        icon: `src/assets/site-icon.png`
       },
     },
-    'gatsby-plugin-offline',
-    'gatsby-transformer-json',
+    `gatsby-plugin-offline`,
+    `gatsby-transformer-json`,
     `gatsby-plugin-transition-link`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -39,14 +33,14 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-react-svg',
+      resolve: `gatsby-plugin-react-svg`,
       options: {
         rule: {
           include: /assets/,
         },
       },
     },
-    'gatsby-plugin-netlify-cms',
+  
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-purgecss`,
@@ -56,17 +50,18 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-routes`,
+      resolve: 'gatsby-plugin-routes',
       options: {
         // this is the path to your routes configuration file
         path: `${__dirname}/src/routes.js`,
       },
     },
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-plugin-alias-imports`,
       options: {
         alias: {
-          '@assets': 'src/assets'
+          '@assets': `src/assets`
         },
         extensions: [
           'js'
@@ -82,11 +77,11 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-web-font-loader',
+      resolve: `gatsby-plugin-web-font-loader`,
       options: {
         custom: {
-          families: ['GeomanistRegular', 'GeomanistBold'],
-          urls: ['fonts/typography.css']
+          families: [`GeomanistRegular`, `GeomanistBold`],
+          urls: [`fonts/typography.css`]
         }
       }
     }

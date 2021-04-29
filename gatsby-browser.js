@@ -1,7 +1,7 @@
 export const onServiceWorkerUpdateReady = () => {
-  // eslint-disable-next-line no-alert
+
   const answer = window.confirm(
-    'This application has been updated. Reload to display the latest version?'
+    'Welcome back! 🌷 I have made some changes. Reload to display the latest version?'
   );
   if (answer === true) {
     window.location.reload();

@@ -1,5 +1,6 @@
 const { colors } = require('tailwindcss/defaultTheme');
 module.exports = {
+  darkMode: 'class',
   theme: {
     colors: {
       primary: colors.teal,
