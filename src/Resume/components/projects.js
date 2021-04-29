@@ -10,7 +10,7 @@ const Projects = ({ data }) => (
         <p className="py-4">{item.description}</p>
         <div className="flex justify-end">
           <a
-            className="btn btn-secondary"
+            className="btn btn-secondary mr-2"
             href={item.link}
             target="_blank"
             rel="noopener noreferrer"
@@ -23,7 +23,7 @@ const Projects = ({ data }) => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            Github Repositoy
+            Github Repo
           </a>
         </div>
       </article>
